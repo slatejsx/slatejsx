@@ -66,7 +66,7 @@ export default App;
 |参数|类型|说明|
 |:--|--|--:|
 |value|array|参考slatejs官方文档，初始化可以使用示例中的结构体|
-|plugins|array|额外的插件，如果需要新增新的编辑器功能，可以通过这个参数传入|
+|onChange|function|数据变化时候的回调，可以参考上文示例|
 |plugins|array|额外的插件，如果需要新增新的编辑器功能，可以通过这个参数传入|
 |readOnly|boolean|只读，如果为true，则没有工具栏且不可编辑|
 |param|{}|额外参数，参数会写入到useSlate()的实体上|
