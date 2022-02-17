@@ -1,0 +1,34 @@
+{
+	"name": "slatejsx",
+	"version": "2.0.0",
+	"main": "./dist/index.js",
+	"files": [
+		"./dist/*"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"antd": "^4.18.5",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"lodash": "^4.17.21",
+		"slate": "^0.72.3",
+		"slate-history": "^0.66.0",
+		"slate-react": "0.66.7"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.0",
+		"@babel/plugin-transform-runtime": "^7.17.0",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-react": "^7.16.7",
+		"@rollup/plugin-babel": "^5.3.0",
+		"@rollup/plugin-node-resolve": "^13.1.3",
+		"rollup": "^2.67.0",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-css-only": "^3.1.0",
+		"rollup-plugin-import-css": "^3.0.2"
+	},
+	"scripts": {
+		"build": "rollup --config config/rollup.config.js",
+		"watch": "rollup --config config/rollup.config.js -w"
+	}
+}
