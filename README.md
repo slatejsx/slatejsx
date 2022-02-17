@@ -18,7 +18,7 @@ npm install slatejsx
 ## usage 用法
 
 ``` jsx
-import SEditoxr from 'slatejsx';
+import SEditor from 'slatejsx';
 import 'slatejsx/dist/index.css';
 import { useState } from 'react';
 
