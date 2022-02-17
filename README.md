@@ -16,10 +16,22 @@ http://seditor.open.heyphp.com/
 import SEditor from 'slatejsx';
 import 'slatejsx/dist/index.css';
 
+const config = [
+  {
+   "type": "paragraph",
+   "title": "h1",
+   "children": [
+    {
+     "text": ""
+    }
+   ]
+  }
+ ]
+
 function App() {
   return (
         <SEditor
-          value={{}}
+          value={config}
           plugins={[]}
           readOnly={false}
         />

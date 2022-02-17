@@ -2,6 +2,7 @@ import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 // import css from 'rollup-plugin-css-only'
 import css from "rollup-plugin-import-css";
+import {uglify} from "rollup-plugin-uglify";
 import {
     nodeResolve
 } from '@rollup/plugin-node-resolve';
@@ -30,7 +31,8 @@ export default {
             extensions: ['.mjs', '.js', '.json', '.node', '.jsx']
         }),
         css(),
-        commonjs()
+        commonjs(),
+        uglify()
     ],
     external: (id) => /^(qss|react|antd|@ant-design\/icons|core-js|lodash)/.test(id),
 }
