@@ -1,9 +1,9 @@
 {
 	"name": "slatejsx",
-	"version": "2.0.0",
-	"main": "./dist/index.js",
+	"version": "1.0.0",
+	"main": "dist/index.js",
 	"files": [
-		"./dist/*"
+		"dist/"
 	],
 	"license": "MIT",
 	"dependencies": {
