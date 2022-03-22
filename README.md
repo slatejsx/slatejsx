@@ -64,7 +64,7 @@ export default App;
 
 ## props 参数说明
 |参数|类型|说明|
-|:--|--|--:|
+|:--|:--|:--|
 |value|array|参考slatejs官方文档，初始化可以使用示例中的结构体|
 |onChange|function|数据变化时候的回调，可以参考上文示例|
 |plugins|array|额外的插件，如果需要新增新的编辑器功能，可以通过这个参数传入|
